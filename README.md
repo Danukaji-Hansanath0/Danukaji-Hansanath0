@@ -27,10 +27,11 @@ An intermediate Full-Stack & Systems Engineer dedicated to building highly scala
 
 ### 📊 GitHub Metrics & Insights
 
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=Danukaji-Hansanath0&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Danukaji's GitHub Stats" height="180" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Danukaji-Hansanath0&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="180" />
-</p>
+<div align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Danukaji-Hansanath0&theme=tokyonight" alt="Danukaji's GitHub Stats" height="180" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Danukaji-Hansanath0&theme=tokyonight&hide_border=true" alt="GitHub Streak" height="180" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Danukaji-Hansanath0&theme=tokyonight" alt="Top Languages" height="180" />
+</div>
 
 ---
 
