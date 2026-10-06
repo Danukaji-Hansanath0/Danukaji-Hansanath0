@@ -1,10 +1,10 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:2563eb&height=200&section=header&text=Danukaji%20Hansanath&fontSize=56&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Software%20Engineer%20%E2%80%A2%20Java%20%26%20Spring%20%E2%80%A2%20Cloud%20Native&descAlignY=58&descSize=18" alt="Danukaji Hansanath" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:2563eb&height=200&section=header&text=Danukaji%20Hansanath&fontSize=56&fontColor=ffffff&fontAlignY=38&desc=Software%20Engineer%20-%20Java%20Spring%20Kubernetes&descAlignY=60&descSize=18" alt="Danukaji Hansanath" />
 </p>
 
 <p align="center">
   <a href="https://orysone.com"><img src="https://img.shields.io/badge/Orysone-orysone.com-2563eb?style=flat-square&logo=googlechrome&logoColor=white" alt="Orysone" /></a>
-  <a href="https://danukaji.rocks"><img src="https://img.shields.io/badge/Portfolio-danukaji.rocks-0f172a?style=flat-square&logo=About.me&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://danukaji.rocks"><img src="https://img.shields.io/badge/Portfolio-danukaji.rocks-0f172a?style=flat-square&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
   <img src="https://img.shields.io/badge/CKA-Certified%20Kubernetes%20Administrator-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="CKA" />
   <img src="https://komarev.com/ghpvc/?username=Danukaji-Hansanath0&color=2563eb&style=flat-square&label=Profile+views" alt="Profile views" />
 </p>
@@ -56,12 +56,12 @@ I'm a **Software Engineer** who builds backend systems with **Java and Spring**,
 
 <p>
   <a href="https://orysone.com"><img src="https://img.shields.io/badge/Orysone-2563eb?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Orysone website" /></a>
-  <a href="https://danukaji.rocks"><img src="https://img.shields.io/badge/Portfolio-0f172a?style=for-the-badge&logo=About.me&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://danukaji.rocks"><img src="https://img.shields.io/badge/Portfolio-0f172a?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
   <a href="https://linkedin.com/in/danukaji"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="https://github.com/orysone"><img src="https://img.shields.io/badge/Orysone_GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="Orysone on GitHub" /></a>
   <a href="https://www.tiktok.com/@orysone"><img src="https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white" alt="Orysone on TikTok" /></a>
   <a href="mailto:danukajih@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="mailto:contact@orysone.com"><img src="https://img.shields.io/badge/Business-contact@orysone.com-334155?style=for-the-badge&logo=maildotru&logoColor=white" alt="Business email" /></a>
+  <a href="mailto:contact@orysone.com"><img src="https://img.shields.io/badge/Business-contact@orysone.com-334155?style=for-the-badge&logo=gmail&logoColor=white" alt="Business email" /></a>
 </p>
 
 <p align="center">
