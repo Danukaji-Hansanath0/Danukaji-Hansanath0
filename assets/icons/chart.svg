@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="hotpink"/>
+      <stop offset="1" stop-color="mediumvioletred"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .bar { animation: grow 2.4s ease-in-out infinite; transform-box: fill-box; transform-origin: bottom; }
+    @keyframes grow { 0%, 100% { transform: scaleY(0.55); } 50% { transform: scaleY(1); } }
+  </style>
+  <rect class="bar" x="8"  y="22" width="8" height="18" rx="3" fill="url(#g)"/>
+  <rect class="bar" x="20" y="8"  width="8" height="32" rx="3" fill="url(#g)" style="animation-delay:-0.8s"/>
+  <rect class="bar" x="32" y="16" width="8" height="24" rx="3" fill="url(#g)" style="animation-delay:-1.6s"/>
+  <rect x="5" y="41" width="38" height="3" rx="1.5" fill="lightpink"/>
+</svg>

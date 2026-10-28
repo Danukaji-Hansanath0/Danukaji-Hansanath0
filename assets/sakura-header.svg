@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 320" width="1200" height="320">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="mediumvioletred" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="black" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ink" x1="0" x2="1">
+      <stop offset="0%" stop-color="lightpink"/>
+      <stop offset="50%" stop-color="hotpink"/>
+      <stop offset="100%" stop-color="pink"/>
+    </linearGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="8"/></filter>
+    <clipPath id="card"><rect width="1200" height="320" rx="24"/></clipPath>
+    <path id="petal" d="M0 0C-12-6-11-19-3-21L0-17L3-21C11-19 12-6 0 0Z"/>
+    <g id="flower">
+      <use href="#petal" xlink:href="#petal"/>
+      <use href="#petal" xlink:href="#petal" transform="rotate(72)"/>
+      <use href="#petal" xlink:href="#petal" transform="rotate(144)"/>
+      <use href="#petal" xlink:href="#petal" transform="rotate(216)"/>
+      <use href="#petal" xlink:href="#petal" transform="rotate(288)"/>
+      <circle r="4" fill="lightyellow" stroke="deeppink" stroke-width="1.5"/>
+    </g>
+  </defs>
+
+  <style>
+    .fall { animation: fall linear infinite; transform-box: fill-box; transform-origin: center; }
+    .spin { animation: spin 24s linear infinite; transform-box: fill-box; transform-origin: center; }
+    .pulse { animation: pulse 4s ease-in-out infinite; }
+    @keyframes fall {
+      0%   { transform: translate(0, -40px) rotate(0deg); opacity: 0; }
+      10%  { opacity: 0.95; }
+      50%  { transform: translate(70px, 160px) rotate(270deg); }
+      90%  { opacity: 0.95; }
+      100% { transform: translate(40px, 380px) rotate(540deg); opacity: 0; }
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    @keyframes pulse { 0%, 100% { opacity: 0.35; } 50% { opacity: 0.85; } }
+  </style>
+
+  <g clip-path="url(#card)">
+    <rect width="1200" height="320" fill="black"/>
+    <rect width="1200" height="320" fill="url(#glow)"/>
+
+    <!-- branches -->
+    <path d="M-10 40 C120 60 200 30 300 70 M150 52 C170 80 200 95 225 105" stroke="sienna" stroke-width="5" fill="none" stroke-linecap="round" opacity="0.6"/>
+    <path d="M1210 290 C1100 275 1040 300 960 275 M1080 285 C1060 255 1030 245 1010 238" stroke="sienna" stroke-width="5" fill="none" stroke-linecap="round" opacity="0.6"/>
+    <g fill="hotpink"><use href="#flower" xlink:href="#flower" transform="translate(300 70) scale(1.3)"/></g>
+    <g fill="pink"><use href="#flower" xlink:href="#flower" transform="translate(225 105)"/></g>
+    <g fill="lightpink"><use href="#flower" xlink:href="#flower" transform="translate(120 52) scale(0.9)"/></g>
+    <g fill="hotpink"><use href="#flower" xlink:href="#flower" transform="translate(960 275) scale(1.3)"/></g>
+    <g fill="pink"><use href="#flower" xlink:href="#flower" transform="translate(1010 238)"/></g>
+    <g fill="lightpink"><use href="#flower" xlink:href="#flower" transform="translate(1110 282) scale(0.9)"/></g>
+
+    <!-- big spinning blossoms -->
+    <g transform="translate(70 250) scale(2.6)" fill="palevioletred" opacity="0.5"><use class="spin" href="#flower" xlink:href="#flower"/></g>
+    <g transform="translate(1130 60) scale(2.6)" fill="palevioletred" opacity="0.5"><use class="spin" href="#flower" xlink:href="#flower"/></g>
+
+    <!-- title -->
+    <text x="600" y="160" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="66" font-weight="800" fill="hotpink" filter="url(#soft)" class="pulse">Danukaji Hansanath</text>
+    <text x="600" y="160" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="66" font-weight="800" fill="url(#ink)">Danukaji Hansanath</text>
+    <text x="600" y="210" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" letter-spacing="4" fill="pink">SOFTWARE ENGINEER · JAVA · SPRING · KUBERNETES</text>
+    <text x="600" y="248" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" fill="palevioletred">~ building things that bloom ~</text>
+
+    <!-- falling petals -->
+    <g transform="translate(40 0)"   fill="hotpink"><use class="fall" href="#petal" xlink:href="#petal" style="animation-duration:9s;animation-delay:-1s"/></g>
+    <g transform="translate(110 0) scale(0.8)" fill="pink"><use class="fall" href="#petal" xlink:href="#petal" style="animation-duration:12s;animation-delay:-6s"/></g>
+    <g transform="translate(190 0)"  fill="lightpink"><use class="fall" href="#petal" xlink:href="#petal" style="animation-duration:10s;animation-delay:-3s"/></g>
+    <g transform="translate(270 0) scale(1.2)" fill="palevioletred"><use class="fall" href="#petal" xlink:href="#petal" style="animation-duration:13s;animation-delay:-8s"/></g>
+    <g transform="translate(350 0)"  fill="hotpink"><use class="fall" href="#petal" xlink:href="#petal" style="animation-duration:11s;animation-delay:-5s"/></g>
+    <g transform="translate(430 0) scale(0.7)" fill="pink"><use class="fall" href="#petal" xlink:href="#petal" style="animation-duration:9s;animation-delay:-7s"/></g>
+    <g transform="translate(510 0)"  fill="lightpink"><use class="fall" href="#petal" xlink:href="#petal" style="animation-duration:14s;animation-delay:-2s"/></g>
+    <g transform="translate(590 0) scale(0.9)" fill="hotpink"><use class="fall" href="#petal" xlink:href="#petal" style="animation-duration:10s;animation-delay:-9s"/></g>
+    <g transform="translate(670 0)"  fill="pink"><use class="fall" href="#petal" xlink:href="#petal" style="animation-duration:12s;animation-delay:-4s"/></g>
+    <g transform="translate(750 0) scale(1.1)" fill="palevioletred"><use class="fall" href="#petal" xlink:href="#petal" style="animation-duration:9s;animation-delay:-6s"/></g>
+    <g transform="translate(830 0)"  fill="lightpink"><use class="fall" href="#petal" xlink:href="#petal" style="animation-duration:13s;animation-delay:-1s"/></g>
+    <g transform="translate(910 0) scale(0.8)" fill="hotpink"><use class="fall" href="#petal" xlink:href="#petal" style="animation-duration:11s;animation-delay:-10s"/></g>
+    <g transform="translate(990 0)"  fill="pink"><use class="fall" href="#petal" xlink:href="#petal" style="animation-duration:10s;animation-delay:-5s"/></g>
+    <g transform="translate(1070 0) scale(1.2)" fill="lightpink"><use class="fall" href="#petal" xlink:href="#petal" style="animation-duration:12s;animation-delay:-3s"/></g>
+    <g transform="translate(1140 0)" fill="hotpink"><use class="fall" href="#petal" xlink:href="#petal" style="animation-duration:9s;animation-delay:-8s"/></g>
+
+    <rect x="1" y="1" width="1198" height="318" rx="24" fill="none" stroke="hotpink" stroke-opacity="0.45" stroke-width="2"/>
+  </g>
+</svg>

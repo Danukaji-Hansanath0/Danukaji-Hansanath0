@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 60" width="1200" height="60">
+  <defs>
+    <linearGradient id="line" x1="0" x2="1">
+      <stop offset="0%" stop-color="hotpink" stop-opacity="0"/>
+      <stop offset="50%" stop-color="hotpink"/>
+      <stop offset="100%" stop-color="hotpink" stop-opacity="0"/>
+    </linearGradient>
+    <path id="petal" d="M0 0C-12-6-11-19-3-21L0-17L3-21C11-19 12-6 0 0Z"/>
+    <g id="flower">
+      <use href="#petal" xlink:href="#petal"/>
+      <use href="#petal" xlink:href="#petal" transform="rotate(72)"/>
+      <use href="#petal" xlink:href="#petal" transform="rotate(144)"/>
+      <use href="#petal" xlink:href="#petal" transform="rotate(216)"/>
+      <use href="#petal" xlink:href="#petal" transform="rotate(288)"/>
+      <circle r="4" fill="lightyellow" stroke="deeppink" stroke-width="1.5"/>
+    </g>
+  </defs>
+
+  <style>
+    .drift { animation: drift linear infinite; transform-box: fill-box; transform-origin: center; }
+    .spin { animation: spin 12s linear infinite; transform-box: fill-box; transform-origin: center; }
+    @keyframes drift {
+      0%   { transform: translate(-60px, 0) rotate(0deg); opacity: 0; }
+      10%  { opacity: 0.9; }
+      50%  { transform: translate(600px, 14px) rotate(360deg); }
+      90%  { opacity: 0.9; }
+      100% { transform: translate(1260px, -6px) rotate(720deg); opacity: 0; }
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+  </style>
+
+  <rect x="0" y="29" width="1200" height="2" fill="url(#line)"/>
+  <g transform="translate(600 30)" fill="hotpink"><use class="spin" href="#flower" xlink:href="#flower"/></g>
+
+  <g transform="translate(0 18) scale(0.6)" fill="pink"><use class="drift" href="#petal" xlink:href="#petal" style="animation-duration:14s;animation-delay:-2s"/></g>
+  <g transform="translate(0 44) scale(0.5)" fill="lightpink"><use class="drift" href="#petal" xlink:href="#petal" style="animation-duration:18s;animation-delay:-9s"/></g>
+  <g transform="translate(0 12) scale(0.45)" fill="palevioletred"><use class="drift" href="#petal" xlink:href="#petal" style="animation-duration:16s;animation-delay:-5s"/></g>
+  <g transform="translate(0 40) scale(0.6)" fill="hotpink"><use class="drift" href="#petal" xlink:href="#petal" style="animation-duration:20s;animation-delay:-13s"/></g>
+</svg>

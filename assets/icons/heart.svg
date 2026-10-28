@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="lightpink"/>
+      <stop offset="1" stop-color="deeppink"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .beat { animation: beat 1.6s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+    @keyframes beat { 0%, 100% { transform: scale(0.9); } 20% { transform: scale(1.05); } 40% { transform: scale(0.95); } }
+  </style>
+  <g class="beat">
+    <path d="M24 41C10 31 5 23 7 16C9 9 18 7 24 14C30 7 39 9 41 16C43 23 38 31 24 41Z" fill="url(#g)"/>
+    <path d="M13 15C15 12 18 12 20 14" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  </g>
+</svg>

@@ -1,27 +1,46 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:2563eb&height=200&section=header&text=Danukaji%20Hansanath&fontSize=56&fontColor=ffffff&fontAlignY=38&desc=Software%20Engineer%20-%20Java%20Spring%20Kubernetes&descAlignY=60&descSize=18" alt="Danukaji Hansanath" />
+  <img src="./assets/sakura-header.svg" width="100%" alt="Danukaji Hansanath — sakura banner" />
 </p>
 
 <p align="center">
-  <a href="https://orysone.com"><img src="https://img.shields.io/badge/Orysone-orysone.com-2563eb?style=flat-square&logo=googlechrome&logoColor=white" alt="Orysone" /></a>
-  <a href="https://danukaji.rocks"><img src="https://img.shields.io/badge/Portfolio-danukaji.rocks-0f172a?style=flat-square&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
-  <img src="https://img.shields.io/badge/CKA-Certified%20Kubernetes%20Administrator-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="CKA" />
-  <img src="https://komarev.com/ghpvc/?username=Danukaji-Hansanath0&color=2563eb&style=flat-square&label=Profile+views" alt="Profile views" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=FF69B4&center=true&vCenter=true&width=640&lines=Java+%26+Spring+backend+engineer;Certified+Kubernetes+Administrator;Founder+of+Orysone;Building+AI+agents+%26+MCP+servers" alt="Typing intro" />
 </p>
 
-## 👋 About me
+<p align="center">
+  <a href="https://orysone.com"><img src="https://img.shields.io/badge/Orysone-orysone.com-ff69b4?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=1a1020" alt="Orysone" /></a>
+  <a href="https://danukaji.rocks"><img src="https://img.shields.io/badge/Portfolio-danukaji.rocks-ff8fab?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=1a1020" alt="Portfolio" /></a>
+  <img src="https://img.shields.io/badge/CKA-Certified-ff69b4?style=for-the-badge&logo=kubernetes&logoColor=white&labelColor=1a1020" alt="CKA" />
+  <img src="https://komarev.com/ghpvc/?username=Danukaji-Hansanath0&color=ff69b4&style=for-the-badge&label=Profile+views" alt="Profile views" />
+</p>
+
+<img src="./assets/sakura-divider.svg" width="100%" alt="" />
+
+## <img src="./assets/icons/blossom.svg" height="30" alt="" /> About me
 
 I'm a **Software Engineer** who builds backend systems with **Java and Spring**, ships them in **Docker**, and runs them on **Kubernetes**. I care about clean APIs, decoupled services and infrastructure that is easy to reason about.
 
-- 💼 **Software Engineer at RydeRentACar** (since June 2025), working on **RydeRentACar**, **RydeFlexi** and **Vestra**
-- 🚀 **Founder of [Orysone](https://orysone.com)**, where I design and build web, backend and AI products for clients
-- 🎓 Studying for a **BSc (Hons) Top-Up**, Birmingham City University, through Java Institute for Advanced Technology
-- ☸️ **Certified Kubernetes Administrator (CKA)**
-- 🤖 Exploring AI agents, MCP servers and LLM integrations
+<img src="./assets/icons/petal.svg" height="14" alt="" /> **Software Engineer at RydeRentACar** (since June 2025), working on **RydeRentACar**, **RydeFlexi** and **Vestra**<br/>
+<img src="./assets/icons/petal.svg" height="14" alt="" /> **Founder of [Orysone](https://orysone.com)**, where I design and build web, backend and AI products for clients<br/>
+<img src="./assets/icons/petal.svg" height="14" alt="" /> Studying for a **BSc (Hons) Top-Up**, Birmingham City University, through Java Institute for Advanced Technology<br/>
+<img src="./assets/icons/petal.svg" height="14" alt="" /> **Certified Kubernetes Administrator (CKA)**<br/>
+<img src="./assets/icons/petal.svg" height="14" alt="" /> Exploring AI agents, MCP servers and LLM integrations
 
-## 🛠️ Tech stack
+```java
+public class Danukaji {
+    String role     = "Software Engineer @ RydeRentACar";
+    String[] code   = {"Java", "Spring", "PHP", "Vue"};
+    String[] ops    = {"Docker", "Kubernetes", "Linux"};
+    String cert     = "CKA";
+    String learning = "AI agents & MCP";
+    String vibe     = "dark mode + sakura";
+}
+```
 
-<p>
+<img src="./assets/sakura-divider.svg" width="100%" alt="" />
+
+## <img src="./assets/icons/code.svg" height="30" alt="" /> Tech stack
+
+<p align="center">
   <img src="https://skillicons.dev/icons?i=java,spring,php,laravel,vue,ts,nodejs,py&theme=dark" alt="Languages and frameworks" /><br/>
   <img src="https://skillicons.dev/icons?i=postgres,mysql,redis,mongodb,docker,kubernetes,linux,cloudflare,git,figma&theme=dark" alt="Data and infrastructure" />
 </p>
@@ -35,35 +54,41 @@ I'm a **Software Engineer** who builds backend systems with **Java and Spring**,
 | **AI** | MCP, OpenAI, Gemini, Mistral, Ollama, OpenRouter |
 | **Other** | Microservices architecture, project management |
 
-## 🔭 What I'm working on
+<img src="./assets/sakura-divider.svg" width="100%" alt="" />
 
-- **RydeFlexi / RydeRentACar**: car rental platform built on microservices with integrated payments
-- **Vestra**: product work at RydeRentACar
-- **Orysone**: client projects and the [orysone.com](https://orysone.com) platform
-- **AI tooling**: self-hosted multi-agent setups and MCP servers
+## <img src="./assets/icons/gear.svg" height="30" alt="" /> What I'm working on
 
-## 📊 GitHub stats
+<img src="./assets/icons/petal.svg" height="14" alt="" /> **RydeFlexi / RydeRentACar**: car rental platform built on microservices with integrated payments<br/>
+<img src="./assets/icons/petal.svg" height="14" alt="" /> **Vestra**: product work at RydeRentACar<br/>
+<img src="./assets/icons/petal.svg" height="14" alt="" /> **Orysone**: client projects and the [orysone.com](https://orysone.com) platform<br/>
+<img src="./assets/icons/petal.svg" height="14" alt="" /> **AI tooling**: self-hosted multi-agent setups and MCP servers
 
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Danukaji-Hansanath0&show_icons=true&include_all_commits=true&count_private=true&theme=tokyonight&hide_border=true" alt="GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Danukaji-Hansanath0&layout=compact&langs_count=8&theme=tokyonight&hide_border=true" alt="Top languages" />
-</p>
-<p align="center">
-  <img src="https://streak-stats.demolab.com/?user=Danukaji-Hansanath0&theme=tokyonight&hide_border=true" alt="GitHub streak" />
-</p>
+<img src="./assets/sakura-divider.svg" width="100%" alt="" />
 
-## 🤝 Connect
-
-<p>
-  <a href="https://orysone.com"><img src="https://img.shields.io/badge/Orysone-2563eb?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Orysone website" /></a>
-  <a href="https://danukaji.rocks"><img src="https://img.shields.io/badge/Portfolio-0f172a?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
-  <a href="https://linkedin.com/in/danukaji"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://github.com/orysone"><img src="https://img.shields.io/badge/Orysone_GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="Orysone on GitHub" /></a>
-  <a href="https://www.tiktok.com/@orysone"><img src="https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white" alt="Orysone on TikTok" /></a>
-  <a href="mailto:danukajih@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="mailto:contact@orysone.com"><img src="https://img.shields.io/badge/Business-contact@orysone.com-334155?style=for-the-badge&logo=gmail&logoColor=white" alt="Business email" /></a>
-</p>
+## <img src="./assets/icons/chart.svg" height="30" alt="" /> GitHub stats
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2563eb,100:0f172a&height=100&section=footer" alt="" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Danukaji-Hansanath0&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d0a12&title_color=ff69b4&icon_color=ff8fab&text_color=f8c8dc" alt="GitHub stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Danukaji-Hansanath0&layout=compact&langs_count=8&hide_border=true&bg_color=0d0a12&title_color=ff69b4&text_color=f8c8dc" alt="Top languages" />
+</p>
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=Danukaji-Hansanath0&hide_border=true&background=0D0A12&ring=FF69B4&fire=FF69B4&currStrNum=FF8FAB&sideNums=FF8FAB&currStrLabel=FFC0CB&sideLabels=FFC0CB&dates=C9A0B4&stroke=3A1F2E" alt="GitHub streak" />
+</p>
+
+<img src="./assets/sakura-divider.svg" width="100%" alt="" />
+
+## <img src="./assets/icons/heart.svg" height="30" alt="" /> Connect
+
+<p align="center">
+  <a href="https://orysone.com"><img src="https://img.shields.io/badge/Orysone-ff69b4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Orysone website" /></a>
+  <a href="https://danukaji.rocks"><img src="https://img.shields.io/badge/Portfolio-1a1020?style=for-the-badge&logo=googlechrome&logoColor=ff69b4" alt="Portfolio" /></a>
+  <a href="https://linkedin.com/in/danukaji"><img src="https://img.shields.io/badge/LinkedIn-ff8fab?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://github.com/orysone"><img src="https://img.shields.io/badge/Orysone_GitHub-1a1020?style=for-the-badge&logo=github&logoColor=ff69b4" alt="Orysone on GitHub" /></a>
+  <a href="https://www.tiktok.com/@orysone"><img src="https://img.shields.io/badge/TikTok-ff69b4?style=for-the-badge&logo=tiktok&logoColor=white" alt="Orysone on TikTok" /></a>
+  <a href="mailto:danukajih@gmail.com"><img src="https://img.shields.io/badge/Email-1a1020?style=for-the-badge&logo=gmail&logoColor=ff69b4" alt="Email" /></a>
+  <a href="mailto:contact@orysone.com"><img src="https://img.shields.io/badge/Business-contact@orysone.com-ff8fab?style=for-the-badge&logo=gmail&logoColor=white&labelColor=1a1020" alt="Business email" /></a>
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0a12,50:c71585,100:ff69b4&height=120&section=footer&text=keep%20blooming&fontColor=ffffff&fontSize=22&fontAlignY=70&animation=twinkling" alt="" />
 </p>
