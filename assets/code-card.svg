@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 960 391" width="960" height="391">
   <defs>
     <radialGradient id="glow" cx="85%" cy="10%" r="80%">
-      <stop offset="0" stop-color="mediumvioletred" stop-opacity="0.35"/>
+      <stop offset="0" stop-color="midnightblue" stop-opacity="0.35"/>
       <stop offset="1" stop-color="black" stop-opacity="0"/>
     </radialGradient>
     <linearGradient id="bar" x1="0" x2="1">
-      <stop offset="0" stop-color="mediumvioletred" stop-opacity="0.55"/>
-      <stop offset="1" stop-color="hotpink" stop-opacity="0.25"/>
+      <stop offset="0" stop-color="midnightblue" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="dodgerblue" stop-opacity="0.25"/>
     </linearGradient>
     <clipPath id="card"><rect width="960" height="391" rx="18"/></clipPath>
     <path id="p" d="M0 0C-12-6-11-19-3-21L0-17L3-21C11-19 12-6 0 0Z"/>
@@ -29,41 +29,41 @@
 
     <!-- window bar -->
     <rect width="960" height="44" fill="url(#bar)"/>
-    <circle cx="26" cy="22" r="7" fill="deeppink"/>
-    <circle cx="50" cy="22" r="7" fill="hotpink"/>
-    <circle cx="74" cy="22" r="7" fill="lightpink"/>
+    <circle cx="26" cy="22" r="7" fill="royalblue"/>
+    <circle cx="50" cy="22" r="7" fill="dodgerblue"/>
+    <circle cx="74" cy="22" r="7" fill="lightskyblue"/>
     <rect x="400.0" y="9" width="160" height="26" rx="8" fill="black" fill-opacity="0.45"/>
-    <text x="480.0" y="27" text-anchor="middle" font-family="Fira Code, JetBrains Mono, Cascadia Code, Consolas, Menlo, DejaVu Sans Mono, monospace" font-size="14" fill="pink">Danukaji.java</text>
-    <text x="936" y="27" text-anchor="end" font-family="Fira Code, JetBrains Mono, Cascadia Code, Consolas, Menlo, DejaVu Sans Mono, monospace" font-size="12" fill="lightpink" opacity="0.7">Java 21</text>
+    <text x="480.0" y="27" text-anchor="middle" font-family="Fira Code, JetBrains Mono, Cascadia Code, Consolas, Menlo, DejaVu Sans Mono, monospace" font-size="14" fill="lightblue">Danukaji.java</text>
+    <text x="936" y="27" text-anchor="end" font-family="Fira Code, JetBrains Mono, Cascadia Code, Consolas, Menlo, DejaVu Sans Mono, monospace" font-size="12" fill="lightskyblue" opacity="0.7">Java 21</text>
 
     <!-- gutter -->
-    <rect x="0" y="44" width="58" height="347" fill="hotpink" fill-opacity="0.05"/>
+    <rect x="0" y="44" width="58" height="347" fill="dodgerblue" fill-opacity="0.05"/>
 
     <g font-family="Fira Code, JetBrains Mono, Cascadia Code, Consolas, Menlo, DejaVu Sans Mono, monospace" font-size="18">
-    <g class="line" style="animation-delay:0.30s"><text x="44" y="94" text-anchor="end" fill="dimgray">1</text><text x="70" y="94" xml:space="preserve"><tspan fill="rosybrown">// hello there, welcome to my profile</tspan></text></g>
-    <g class="line" style="animation-delay:0.48s"><text x="44" y="125" text-anchor="end" fill="dimgray">2</text><text x="70" y="125" xml:space="preserve"><tspan fill="deeppink" font-weight="700">public</tspan><tspan fill="mistyrose"> </tspan><tspan fill="deeppink" font-weight="700">class</tspan><tspan fill="mistyrose"> </tspan><tspan fill="lightpink" font-weight="700">Danukaji</tspan><tspan fill="palevioletred"> {</tspan></text></g>
-    <g class="line" style="animation-delay:0.66s"><text x="44" y="156" text-anchor="end" fill="dimgray">3</text><text x="70" y="156" xml:space="preserve"><tspan fill="mistyrose">    </tspan><tspan fill="hotpink">String</tspan><tspan fill="mistyrose">   </tspan><tspan fill="mistyrose">role</tspan><tspan fill="mistyrose">     </tspan><tspan fill="palevioletred">= </tspan><tspan fill="pink">"Software Engineer @ RydeRentACar"</tspan><tspan fill="palevioletred">;</tspan></text></g>
-    <g class="line" style="animation-delay:0.84s"><text x="44" y="187" text-anchor="end" fill="dimgray">4</text><text x="70" y="187" xml:space="preserve"><tspan fill="mistyrose">    </tspan><tspan fill="hotpink">String[]</tspan><tspan fill="mistyrose"> </tspan><tspan fill="mistyrose">code</tspan><tspan fill="mistyrose">     </tspan><tspan fill="palevioletred">= {</tspan><tspan fill="pink">"Java"</tspan><tspan fill="palevioletred">, </tspan><tspan fill="pink">"Spring"</tspan><tspan fill="palevioletred">, </tspan><tspan fill="pink">"PHP"</tspan><tspan fill="palevioletred">, </tspan><tspan fill="pink">"Vue"</tspan><tspan fill="palevioletred">};</tspan></text></g>
-    <g class="line" style="animation-delay:1.02s"><text x="44" y="218" text-anchor="end" fill="dimgray">5</text><text x="70" y="218" xml:space="preserve"><tspan fill="mistyrose">    </tspan><tspan fill="hotpink">String[]</tspan><tspan fill="mistyrose"> </tspan><tspan fill="mistyrose">ops</tspan><tspan fill="mistyrose">      </tspan><tspan fill="palevioletred">= {</tspan><tspan fill="pink">"Docker"</tspan><tspan fill="palevioletred">, </tspan><tspan fill="pink">"Kubernetes"</tspan><tspan fill="palevioletred">, </tspan><tspan fill="pink">"Linux"</tspan><tspan fill="palevioletred">};</tspan></text></g>
-    <g class="line" style="animation-delay:1.20s"><text x="44" y="249" text-anchor="end" fill="dimgray">6</text><text x="70" y="249" xml:space="preserve"><tspan fill="mistyrose">    </tspan><tspan fill="hotpink">String</tspan><tspan fill="mistyrose">   </tspan><tspan fill="mistyrose">cert</tspan><tspan fill="mistyrose">     </tspan><tspan fill="palevioletred">= </tspan><tspan fill="pink">"CKA"</tspan><tspan fill="palevioletred">;</tspan></text></g>
-    <g class="line" style="animation-delay:1.38s"><text x="44" y="280" text-anchor="end" fill="dimgray">7</text><text x="70" y="280" xml:space="preserve"><tspan fill="mistyrose">    </tspan><tspan fill="hotpink">String</tspan><tspan fill="mistyrose">   </tspan><tspan fill="mistyrose">learning</tspan><tspan fill="mistyrose"> </tspan><tspan fill="palevioletred">= </tspan><tspan fill="pink">"AI agents &amp; MCP"</tspan><tspan fill="palevioletred">;</tspan></text></g>
-    <g class="line" style="animation-delay:1.56s"><text x="44" y="311" text-anchor="end" fill="dimgray">8</text><text x="70" y="311" xml:space="preserve"><tspan fill="mistyrose">    </tspan><tspan fill="hotpink">String</tspan><tspan fill="mistyrose">   </tspan><tspan fill="mistyrose">vibe</tspan><tspan fill="mistyrose">     </tspan><tspan fill="palevioletred">= </tspan><tspan fill="pink">"dark mode + sakura"</tspan><tspan fill="palevioletred">;</tspan></text></g>
-    <g class="line" style="animation-delay:1.74s"><text x="44" y="342" text-anchor="end" fill="dimgray">9</text><text x="70" y="342" xml:space="preserve"><tspan fill="palevioletred">}</tspan></text></g>
+    <g class="line" style="animation-delay:0.30s"><text x="44" y="94" text-anchor="end" fill="dimgray">1</text><text x="70" y="94" xml:space="preserve"><tspan fill="slategray">// hello there, welcome to my profile</tspan></text></g>
+    <g class="line" style="animation-delay:0.48s"><text x="44" y="125" text-anchor="end" fill="dimgray">2</text><text x="70" y="125" xml:space="preserve"><tspan fill="royalblue" font-weight="700">public</tspan><tspan fill="aliceblue"> </tspan><tspan fill="royalblue" font-weight="700">class</tspan><tspan fill="aliceblue"> </tspan><tspan fill="lightskyblue" font-weight="700">Danukaji</tspan><tspan fill="cornflowerblue"> {</tspan></text></g>
+    <g class="line" style="animation-delay:0.66s"><text x="44" y="156" text-anchor="end" fill="dimgray">3</text><text x="70" y="156" xml:space="preserve"><tspan fill="aliceblue">    </tspan><tspan fill="dodgerblue">String</tspan><tspan fill="aliceblue">   </tspan><tspan fill="aliceblue">role</tspan><tspan fill="aliceblue">     </tspan><tspan fill="cornflowerblue">= </tspan><tspan fill="lightblue">"Software Engineer @ RydeRentACar"</tspan><tspan fill="cornflowerblue">;</tspan></text></g>
+    <g class="line" style="animation-delay:0.84s"><text x="44" y="187" text-anchor="end" fill="dimgray">4</text><text x="70" y="187" xml:space="preserve"><tspan fill="aliceblue">    </tspan><tspan fill="dodgerblue">String[]</tspan><tspan fill="aliceblue"> </tspan><tspan fill="aliceblue">code</tspan><tspan fill="aliceblue">     </tspan><tspan fill="cornflowerblue">= {</tspan><tspan fill="lightblue">"Java"</tspan><tspan fill="cornflowerblue">, </tspan><tspan fill="lightblue">"Spring"</tspan><tspan fill="cornflowerblue">, </tspan><tspan fill="lightblue">"PHP"</tspan><tspan fill="cornflowerblue">, </tspan><tspan fill="lightblue">"Vue"</tspan><tspan fill="cornflowerblue">};</tspan></text></g>
+    <g class="line" style="animation-delay:1.02s"><text x="44" y="218" text-anchor="end" fill="dimgray">5</text><text x="70" y="218" xml:space="preserve"><tspan fill="aliceblue">    </tspan><tspan fill="dodgerblue">String[]</tspan><tspan fill="aliceblue"> </tspan><tspan fill="aliceblue">ops</tspan><tspan fill="aliceblue">      </tspan><tspan fill="cornflowerblue">= {</tspan><tspan fill="lightblue">"Docker"</tspan><tspan fill="cornflowerblue">, </tspan><tspan fill="lightblue">"Kubernetes"</tspan><tspan fill="cornflowerblue">, </tspan><tspan fill="lightblue">"Linux"</tspan><tspan fill="cornflowerblue">};</tspan></text></g>
+    <g class="line" style="animation-delay:1.20s"><text x="44" y="249" text-anchor="end" fill="dimgray">6</text><text x="70" y="249" xml:space="preserve"><tspan fill="aliceblue">    </tspan><tspan fill="dodgerblue">String</tspan><tspan fill="aliceblue">   </tspan><tspan fill="aliceblue">cert</tspan><tspan fill="aliceblue">     </tspan><tspan fill="cornflowerblue">= </tspan><tspan fill="lightblue">"CKA"</tspan><tspan fill="cornflowerblue">;</tspan></text></g>
+    <g class="line" style="animation-delay:1.38s"><text x="44" y="280" text-anchor="end" fill="dimgray">7</text><text x="70" y="280" xml:space="preserve"><tspan fill="aliceblue">    </tspan><tspan fill="dodgerblue">String</tspan><tspan fill="aliceblue">   </tspan><tspan fill="aliceblue">learning</tspan><tspan fill="aliceblue"> </tspan><tspan fill="cornflowerblue">= </tspan><tspan fill="lightblue">"AI agents &amp; MCP"</tspan><tspan fill="cornflowerblue">;</tspan></text></g>
+    <g class="line" style="animation-delay:1.56s"><text x="44" y="311" text-anchor="end" fill="dimgray">8</text><text x="70" y="311" xml:space="preserve"><tspan fill="aliceblue">    </tspan><tspan fill="dodgerblue">String</tspan><tspan fill="aliceblue">   </tspan><tspan fill="aliceblue">vibe</tspan><tspan fill="aliceblue">     </tspan><tspan fill="cornflowerblue">= </tspan><tspan fill="lightblue">"dark mode + sakura"</tspan><tspan fill="cornflowerblue">;</tspan></text></g>
+    <g class="line" style="animation-delay:1.74s"><text x="44" y="342" text-anchor="end" fill="dimgray">9</text><text x="70" y="342" xml:space="preserve"><tspan fill="cornflowerblue">}</tspan></text></g>
     </g>
-    <rect class="cursor" x="92" y="325" width="10" height="22" rx="2" fill="hotpink"/>
+    <rect class="cursor" x="92" y="325" width="10" height="22" rx="2" fill="dodgerblue"/>
 
     <!-- petals -->
-    <g transform="translate(780 0) scale(0.55)" fill="pink"><use class="fall" href="#p" xlink:href="#p" style="animation-duration:11s;animation-delay:-3s"/></g>
-    <g transform="translate(880 0) scale(0.45)" fill="hotpink"><use class="fall" href="#p" xlink:href="#p" style="animation-duration:14s;animation-delay:-8s"/></g>
-    <g transform="translate(640 0) scale(0.4)" fill="lightpink"><use class="fall" href="#p" xlink:href="#p" style="animation-duration:16s;animation-delay:-12s"/></g>
+    <g transform="translate(780 0) scale(0.55)" fill="lightblue"><use class="fall" href="#p" xlink:href="#p" style="animation-duration:11s;animation-delay:-3s"/></g>
+    <g transform="translate(880 0) scale(0.45)" fill="dodgerblue"><use class="fall" href="#p" xlink:href="#p" style="animation-duration:14s;animation-delay:-8s"/></g>
+    <g transform="translate(640 0) scale(0.4)" fill="lightskyblue"><use class="fall" href="#p" xlink:href="#p" style="animation-duration:16s;animation-delay:-12s"/></g>
 
     <!-- blossom in the corner -->
-    <g transform="translate(900 341) scale(1.6)" fill="palevioletred" opacity="0.45">
+    <g transform="translate(900 341) scale(1.6)" fill="cornflowerblue" opacity="0.45">
       <use href="#p" xlink:href="#p"/><use href="#p" xlink:href="#p" transform="rotate(72)"/><use href="#p" xlink:href="#p" transform="rotate(144)"/>
       <use href="#p" xlink:href="#p" transform="rotate(216)"/><use href="#p" xlink:href="#p" transform="rotate(288)"/>
-      <circle r="4" fill="lightyellow" stroke="deeppink" stroke-width="1.5"/>
+      <circle r="4" fill="lightyellow" stroke="royalblue" stroke-width="1.5"/>
     </g>
 
-    <rect x="1" y="1" width="958" height="389" rx="18" fill="none" stroke="hotpink" stroke-opacity="0.45" stroke-width="2"/>
+    <rect x="1" y="1" width="958" height="389" rx="18" fill="none" stroke="dodgerblue" stroke-opacity="0.45" stroke-width="2"/>
   </g>
 </svg>

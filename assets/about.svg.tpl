@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 960 552" width="960" height="552">
+  <defs>
+    <radialGradient id="glow" cx="0%" cy="0%" r="90%">
+      <stop offset="0" stop-color="{{GLOW}}" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="{{BG}}" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="100%" cy="100%" r="55%">
+      <stop offset="0" stop-color="{{STRONG}}" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="{{BG}}" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ink" x1="0" x2="1">
+      <stop offset="0" stop-color="{{MAIN}}"/>
+      <stop offset="1" stop-color="{{LIGHT}}"/>
+    </linearGradient>
+    <linearGradient id="badge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="{{GLOW}}"/>
+      <stop offset="1" stop-color="{{MAIN}}"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" x2="1">
+      <stop offset="0" stop-color="{{MAIN}}" stop-opacity="0.7"/>
+      <stop offset="1" stop-color="{{MAIN}}" stop-opacity="0.15"/>
+    </linearGradient>
+    <clipPath id="card"><rect width="960" height="552" rx="22"/></clipPath>
+    <path id="p" d="M0 0C-12-6-11-19-3-21L0-17L3-21C11-19 12-6 0 0Z"/>
+    <g id="flower">
+      <use href="#p" xlink:href="#p"/><use href="#p" xlink:href="#p" transform="rotate(72)"/><use href="#p" xlink:href="#p" transform="rotate(144)"/>
+      <use href="#p" xlink:href="#p" transform="rotate(216)"/><use href="#p" xlink:href="#p" transform="rotate(288)"/>
+      <circle r="4" fill="lightyellow" stroke="{{STRONG}}" stroke-width="1.5"/>
+    </g>
+  </defs>
+  <style>
+    .pop { animation: pop 0.6s ease-out both; }
+    .spin { animation: spin 22s linear infinite; }
+    .fall { animation: fall linear infinite; transform-box: fill-box; transform-origin: center; }
+    @keyframes pop { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    @keyframes fall {
+      0%   { transform: translate(0, -30px) rotate(0deg); opacity: 0; }
+      12%  { opacity: 0.55; }
+      100% { transform: translate(-60px, 592px) rotate(480deg); opacity: 0; }
+    }
+  </style>
+  <g clip-path="url(#card)" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+    <rect width="960" height="552" fill="{{BG}}"/>
+    <rect width="960" height="552" fill="url(#glow)"/>
+    <rect width="960" height="552" fill="url(#glow2)"/>
+
+    <g transform="translate(890 70) scale(2.2)" fill="{{MUTED}}" opacity="0.35"><g class="spin"><use href="#flower" xlink:href="#flower"/></g></g>
+
+    <g class="pop" style="animation-delay:0.1s">
+      <text x="40" y="66" font-size="32" font-weight="800" fill="url(#ink)">Hi, I'm Danukaji</text>
+      <rect x="40" y="82" width="250" height="2.5" rx="1.25" fill="{{MAIN}}" fill-opacity="0.6"/>
+    </g>
+    <g class="pop" style="animation-delay:0.2s" font-size="17" fill="{{TEXT}}">
+      <text x="40" y="124">I build backend systems with <tspan fill="{{MAIN}}" font-weight="800">Java and Spring</tspan>, ship them in <tspan fill="{{MAIN}}" font-weight="800">Docker</tspan>, and run them on <tspan fill="{{MAIN}}" font-weight="800">Kubernetes</tspan>.</text>
+      <text x="40" y="152">I care about clean APIs, decoupled services and infrastructure that is easy to reason about.</text>
+    </g>
+
+    <g class="pop" style="animation-delay:0.35s">
+      <rect x="40" y="196" width="430" height="92" rx="16" fill="{{MAIN}}" fill-opacity="0.07" stroke="url(#edge)" stroke-width="1.5"/>
+      <circle cx="84" cy="242" r="26" fill="url(#badge)"/>
+      <g transform="translate(72 230)"><rect x="2" y="7" width="20" height="14" rx="3" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M8 7 V5 C8 3.5 9 3 10 3 H14 C15 3 16 3.5 16 5 V7 M2 13 H22" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+      <text x="128" y="228" font-size="17" font-weight="800" fill="{{TEXT}}">Software Engineer</text>
+      <text x="128" y="251" font-size="14" fill="{{SOFT}}">RydeRentACar, since June 2025</text>
+      <text x="128" y="271" font-size="13" fill="{{MUTED}}">RydeRentACar · RydeFlexi · Vestra</text>
+    </g>
+    <g class="pop" style="animation-delay:0.47s">
+      <rect x="490" y="196" width="430" height="92" rx="16" fill="{{MAIN}}" fill-opacity="0.07" stroke="url(#edge)" stroke-width="1.5"/>
+      <circle cx="534" cy="242" r="26" fill="url(#badge)"/>
+      <g transform="translate(522 230)"><path d="M12 2 C17 6 18 12 15 17 H9 C6 12 7 6 12 2 Z" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="12" cy="10" r="2" fill="white"/><path d="M9 17 L6 21 M15 17 L18 21 M12 18 V22" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+      <text x="578" y="228" font-size="17" font-weight="800" fill="{{TEXT}}">Founder of Orysone</text>
+      <text x="578" y="251" font-size="14" fill="{{SOFT}}">Web, backend and AI products for clients</text>
+      <text x="578" y="271" font-size="13" fill="{{MUTED}}">orysone.com</text>
+    </g>
+    <g class="pop" style="animation-delay:0.59s">
+      <rect x="40" y="308" width="430" height="92" rx="16" fill="{{MAIN}}" fill-opacity="0.07" stroke="url(#edge)" stroke-width="1.5"/>
+      <circle cx="84" cy="354" r="26" fill="url(#badge)"/>
+      <g transform="translate(72 342)"><path d="M1 9 L12 4 L23 9 L12 14 Z" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M6 11.5 V17 C6 19 18 19 18 17 V11.5 M22 9 V15" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+      <text x="128" y="340" font-size="17" font-weight="800" fill="{{TEXT}}">BSc (Hons) Top-Up</text>
+      <text x="128" y="363" font-size="14" fill="{{SOFT}}">Birmingham City University</text>
+      <text x="128" y="383" font-size="13" fill="{{MUTED}}">through Java Institute for Advanced Technology</text>
+    </g>
+    <g class="pop" style="animation-delay:0.71s">
+      <rect x="490" y="308" width="430" height="92" rx="16" fill="{{MAIN}}" fill-opacity="0.07" stroke="url(#edge)" stroke-width="1.5"/>
+      <circle cx="534" cy="354" r="26" fill="url(#badge)"/>
+      <g transform="translate(522 342)"><path d="M12 2 L20 5 V11 C20 16 16.5 20 12 22 C7.5 20 4 16 4 11 V5 Z" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M8.5 12 L11 14.5 L15.5 9.5" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+      <text x="578" y="340" font-size="17" font-weight="800" fill="{{TEXT}}">Certified Kubernetes Administrator</text>
+      <text x="578" y="363" font-size="14" fill="{{SOFT}}">CKA certified</text>
+      <text x="578" y="383" font-size="13" fill="{{MUTED}}">Kubernetes · Docker · Linux</text>
+    </g>
+    <g class="pop" style="animation-delay:0.83s">
+      <rect x="40" y="420" width="430" height="92" rx="16" fill="{{MAIN}}" fill-opacity="0.07" stroke="url(#edge)" stroke-width="1.5"/>
+      <circle cx="84" cy="466" r="26" fill="url(#badge)"/>
+      <g transform="translate(72 454)"><path d="M12 1 L14.3 9.7 L23 12 L14.3 14.3 L12 23 L9.7 14.3 L1 12 L9.7 9.7 Z" fill="white"/></g>
+      <text x="128" y="452" font-size="17" font-weight="800" fill="{{TEXT}}">Exploring AI</text>
+      <text x="128" y="475" font-size="14" fill="{{SOFT}}">AI agents, MCP servers</text>
+      <text x="128" y="495" font-size="13" fill="{{MUTED}}">and LLM integrations</text>
+    </g>
+    <g class="pop" style="animation-delay:0.95s">
+      <rect x="490" y="420" width="430" height="92" rx="16" fill="{{MAIN}}" fill-opacity="0.07" stroke="url(#edge)" stroke-width="1.5"/>
+      <circle cx="534" cy="466" r="26" fill="url(#badge)"/>
+      <g transform="translate(522 454)"><path d="M12 22 C12 22 4 14.5 4 9 C4 4.5 7.5 2 12 2 C16.5 2 20 4.5 20 9 C20 14.5 12 22 12 22 Z" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="12" cy="9" r="3" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+      <text x="578" y="452" font-size="17" font-weight="800" fill="{{TEXT}}">Based in Sri Lanka</text>
+      <text x="578" y="475" font-size="14" fill="{{SOFT}}">UTC +05:30</text>
+      <text x="578" y="495" font-size="13" fill="{{MUTED}}">freelancing through Orysone and Fiverr</text>
+    </g>
+
+    <g transform="translate(620 0) scale(0.5)" fill="{{SOFT}}"><use class="fall" href="#p" xlink:href="#p" style="animation-duration:13s;animation-delay:-5s"/></g>
+    <g transform="translate(380 0) scale(0.4)" fill="{{MAIN}}"><use class="fall" href="#p" xlink:href="#p" style="animation-duration:17s;animation-delay:-11s"/></g>
+    <g transform="translate(900 0) scale(0.55)" fill="{{LIGHT}}"><use class="fall" href="#p" xlink:href="#p" style="animation-duration:15s;animation-delay:-2s"/></g>
+    <rect x="1" y="1" width="958" height="550" rx="22" fill="none" stroke="{{MAIN}}" stroke-opacity="0.45" stroke-width="2"/>
+  </g>
+</svg>
