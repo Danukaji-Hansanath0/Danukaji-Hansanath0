@@ -17,13 +17,9 @@
 
 <img src="./assets/headings/about.svg" width="100%" alt="About me" />
 
-I'm a **Software Engineer** who builds backend systems with **Java and Spring**, ships them in **Docker**, and runs them on **Kubernetes**. I care about clean APIs, decoupled services and infrastructure that is easy to reason about.
-
-<img src="./assets/icons/petal.svg" height="14" alt="" /> **Software Engineer at RydeRentACar** (since June 2025), working on **RydeRentACar**, **RydeFlexi** and **Vestra**<br/>
-<img src="./assets/icons/petal.svg" height="14" alt="" /> **Founder of [Orysone](https://orysone.com)**, where I design and build web, backend and AI products for clients<br/>
-<img src="./assets/icons/petal.svg" height="14" alt="" /> Studying for a **BSc (Hons) Top-Up**, Birmingham City University, through Java Institute for Advanced Technology<br/>
-<img src="./assets/icons/petal.svg" height="14" alt="" /> **Certified Kubernetes Administrator (CKA)**<br/>
-<img src="./assets/icons/petal.svg" height="14" alt="" /> Exploring AI agents, MCP servers and LLM integrations
+<p align="center">
+  <img src="./assets/about.svg" width="100%" alt="Hi, I\'m Danukaji. Software Engineer at RydeRentACar, founder of Orysone, BSc (Hons) Top-Up student, Certified Kubernetes Administrator, exploring AI agents and MCP, based in Sri Lanka" />
+</p>
 
 <p align="center">
   <img src="./assets/code-card.svg" width="100%" alt="public class Danukaji: Software Engineer at RydeRentACar; Java, Spring, PHP, Vue; Docker, Kubernetes, Linux; CKA; learning AI agents and MCP" />
