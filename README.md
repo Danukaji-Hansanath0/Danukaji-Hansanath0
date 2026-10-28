@@ -25,16 +25,9 @@ I'm a **Software Engineer** who builds backend systems with **Java and Spring**,
 <img src="./assets/icons/petal.svg" height="14" alt="" /> **Certified Kubernetes Administrator (CKA)**<br/>
 <img src="./assets/icons/petal.svg" height="14" alt="" /> Exploring AI agents, MCP servers and LLM integrations
 
-```java
-public class Danukaji {
-    String role     = "Software Engineer @ RydeRentACar";
-    String[] code   = {"Java", "Spring", "PHP", "Vue"};
-    String[] ops    = {"Docker", "Kubernetes", "Linux"};
-    String cert     = "CKA";
-    String learning = "AI agents & MCP";
-    String vibe     = "dark mode + sakura";
-}
-```
+<p align="center">
+  <img src="./assets/code-card.svg" width="100%" alt="public class Danukaji: Software Engineer at RydeRentACar; Java, Spring, PHP, Vue; Docker, Kubernetes, Linux; CKA; learning AI agents and MCP" />
+</p>
 
 <img src="./assets/sakura-divider.svg" width="100%" alt="" />
 
