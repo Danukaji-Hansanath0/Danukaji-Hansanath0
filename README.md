@@ -66,7 +66,8 @@ public class Danukaji {
   <img src="./assets/stats.svg" width="100%" alt="GitHub stats and most used languages" />
 </p>
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=Danukaji-Hansanath0&hide_border=true&background=0D0A12&ring=FF69B4&fire=FF69B4&currStrNum=FF8FAB&sideNums=FF8FAB&currStrLabel=FFC0CB&sideLabels=FFC0CB&dates=C9A0B4&stroke=3A1F2E" alt="GitHub streak" />
+  <img height="180" src="./assets/github-stats.svg" alt="GitHub stats card" />
+  <img height="180" src="https://streak-stats.demolab.com/?user=Danukaji-Hansanath0&hide_border=true&background=0D0A12&ring=FF69B4&fire=FF69B4&currStrNum=FF8FAB&sideNums=FF8FAB&currStrLabel=FFC0CB&sideLabels=FFC0CB&dates=C9A0B4&stroke=3A1F2E" alt="GitHub streak" />
 </p>
 
 <img src="./assets/sakura-divider.svg" width="100%" alt="" />

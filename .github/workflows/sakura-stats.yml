@@ -16,6 +16,10 @@ permissions:
 jobs:
   stats:
     runs-on: ubuntu-latest
+    env:
+      # STATS_TOKEN is a personal access token saved in Settings > Secrets > Actions.
+      # Without it the workflow still runs, but only counts public data.
+      TOKEN: ${{ secrets.STATS_TOKEN || github.token }}
     steps:
       - uses: actions/checkout@v4
 
@@ -26,7 +30,7 @@ jobs:
 
       - name: Fetch GitHub stats
         env:
-          GH_TOKEN: ${{ github.token }}
+          GH_TOKEN: ${{ env.TOKEN }}
         run: |
           gh api graphql -f login="${{ github.repository_owner }}" -f query='
             query($login: String!) {
@@ -55,10 +59,18 @@ jobs:
       - name: Render sakura card
         run: java scripts/SakuraStats.java stats.properties assets/stats.svg
 
-      - name: Commit card
+      - name: Classic GitHub stats card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          path: assets/github-stats.svg
+          token: ${{ env.TOKEN }}
+          options: username=${{ github.repository_owner }}&show_icons=true&count_private=true&include_all_commits=true&rank_icon=github&hide_border=true&bg_color=0d0a12&title_color=ff69b4&icon_color=ff8fab&text_color=f8c8dc&ring_color=ff69b4&custom_title=Sakura%20GitHub%20stats
+
+      - name: Commit cards
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/stats.svg
-          git diff --cached --quiet || git commit -m "Update sakura stats"
+          git add assets/stats.svg assets/github-stats.svg
+          git diff --cached --quiet || git commit -m "Update stats cards"
           git push
