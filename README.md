@@ -15,7 +15,7 @@
 
 <img src="./assets/sakura-divider.svg" width="100%" alt="" />
 
-## <img src="./assets/icons/blossom.svg" height="30" alt="" /> About me
+<img src="./assets/headings/about.svg" width="100%" alt="About me" />
 
 I'm a **Software Engineer** who builds backend systems with **Java and Spring**, ships them in **Docker**, and runs them on **Kubernetes**. I care about clean APIs, decoupled services and infrastructure that is easy to reason about.
 
@@ -38,25 +38,20 @@ public class Danukaji {
 
 <img src="./assets/sakura-divider.svg" width="100%" alt="" />
 
-## <img src="./assets/icons/code.svg" height="30" alt="" /> Tech stack
+<img src="./assets/headings/stack.svg" width="100%" alt="Tech stack" />
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=java,spring,php,laravel,vue,ts,nodejs,py&theme=dark" alt="Languages and frameworks" /><br/>
   <img src="https://skillicons.dev/icons?i=postgres,mysql,redis,mongodb,docker,kubernetes,linux,cloudflare,git,figma&theme=dark" alt="Data and infrastructure" />
 </p>
 
-| Area | Tools |
-| :--- | :--- |
-| **Backend** | Java, Spring Boot, Spring Security (JWT), gRPC, REST, PHP / Laravel |
-| **Frontend** | Vue.js, TypeScript, UI/UX design |
-| **Data** | PostgreSQL, MySQL, Redis, NoSQL |
-| **DevOps & Cloud** | Kubernetes, Docker & Compose, Dokploy, Cloudflare, Linux (Arch / Ubuntu) |
-| **AI** | MCP, OpenAI, Gemini, Mistral, Ollama, OpenRouter |
-| **Other** | Microservices architecture, project management |
+<p align="center">
+  <img src="./assets/tech-stack.svg" width="100%" alt="Tech stack: Backend, Frontend, Data, DevOps &amp; Cloud, AI, Other" />
+</p>
 
 <img src="./assets/sakura-divider.svg" width="100%" alt="" />
 
-## <img src="./assets/icons/gear.svg" height="30" alt="" /> What I'm working on
+<img src="./assets/headings/working.svg" width="100%" alt="What I'm working on" />
 
 <img src="./assets/icons/petal.svg" height="14" alt="" /> **RydeFlexi / RydeRentACar**: car rental platform built on microservices with integrated payments<br/>
 <img src="./assets/icons/petal.svg" height="14" alt="" /> **Vestra**: product work at RydeRentACar<br/>
@@ -65,11 +60,10 @@ public class Danukaji {
 
 <img src="./assets/sakura-divider.svg" width="100%" alt="" />
 
-## <img src="./assets/icons/chart.svg" height="30" alt="" /> GitHub stats
+<img src="./assets/headings/stats.svg" width="100%" alt="GitHub stats" />
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Danukaji-Hansanath0&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d0a12&title_color=ff69b4&icon_color=ff8fab&text_color=f8c8dc" alt="GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Danukaji-Hansanath0&layout=compact&langs_count=8&hide_border=true&bg_color=0d0a12&title_color=ff69b4&text_color=f8c8dc" alt="Top languages" />
+  <img src="./assets/stats.svg" width="100%" alt="GitHub stats and most used languages" />
 </p>
 <p align="center">
   <img src="https://streak-stats.demolab.com/?user=Danukaji-Hansanath0&hide_border=true&background=0D0A12&ring=FF69B4&fire=FF69B4&currStrNum=FF8FAB&sideNums=FF8FAB&currStrLabel=FFC0CB&sideLabels=FFC0CB&dates=C9A0B4&stroke=3A1F2E" alt="GitHub streak" />
@@ -77,7 +71,7 @@ public class Danukaji {
 
 <img src="./assets/sakura-divider.svg" width="100%" alt="" />
 
-## <img src="./assets/icons/heart.svg" height="30" alt="" /> Connect
+<img src="./assets/headings/connect.svg" width="100%" alt="Connect" />
 
 <p align="center">
   <a href="https://orysone.com"><img src="https://img.shields.io/badge/Orysone-ff69b4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Orysone website" /></a>
