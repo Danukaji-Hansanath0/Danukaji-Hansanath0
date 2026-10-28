@@ -18,7 +18,7 @@
 <img src="./assets/headings/about.svg" width="100%" alt="About me" />
 
 <p align="center">
-  <img src="./assets/about.svg" width="100%" alt="Hi, I\'m Danukaji. Software Engineer at RydeRentACar, founder of Orysone, BSc (Hons) Top-Up student, Certified Kubernetes Administrator, exploring AI agents and MCP, based in Sri Lanka" />
+  <img src="./assets/about.svg" width="100%" alt="Hi, I'm Danukaji. Software Engineer at RydeRentACar, founder of Orysone, BSc (Hons) Top-Up student, Certified Kubernetes Administrator, exploring AI agents and MCP, based in Sri Lanka" />
 </p>
 
 <p align="center">
