@@ -69,10 +69,18 @@ jobs:
           token: ${{ env.TOKEN }}
           options: username=${{ github.repository_owner }}&show_icons=true&count_private=true&include_all_commits=true&rank_icon=github&hide_border=true&bg_color=0d0a12&title_color=ff69b4&icon_color=ff8fab&text_color=f8c8dc&ring_color=ff69b4&custom_title=Sakura%20GitHub%20stats
 
+      - name: Top languages card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          path: assets/top-langs.svg
+          token: ${{ env.TOKEN }}
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=8&hide_border=true&bg_color=0d0a12&title_color=ff69b4&text_color=f8c8dc&custom_title=Most%20used%20languages
+
       - name: Commit cards
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/stats.svg assets/github-stats.svg
+          git add assets/stats.svg assets/github-stats.svg assets/top-langs.svg
           git diff --cached --quiet || git commit -m "Update stats cards"
           git push
