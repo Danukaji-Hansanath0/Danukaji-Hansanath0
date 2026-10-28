@@ -46,6 +46,10 @@ public class Danukaji {
 </p>
 
 <p align="center">
+  <img src="./assets/languages.svg" width="100%" alt="Most used languages across private and public repos" />
+</p>
+
+<p align="center">
   <img src="./assets/tech-stack.svg" width="100%" alt="Tech stack: Backend, Frontend, Data, DevOps &amp; Cloud, AI, Other" />
 </p>
 
@@ -67,7 +71,6 @@ public class Danukaji {
 </p>
 <p align="center">
   <img height="180" src="./assets/github-stats.svg" alt="GitHub stats card" />
-  <img height="180" src="./assets/top-langs.svg" alt="Most used languages" />
 </p>
 <p align="center">
   <img height="180" src="https://streak-stats.demolab.com/?user=Danukaji-Hansanath0&hide_border=true&background=0D0A12&ring=FF69B4&fire=FF69B4&currStrNum=FF8FAB&sideNums=FF8FAB&currStrLabel=FFC0CB&sideLabels=FFC0CB&dates=C9A0B4&stroke=3A1F2E" alt="GitHub streak" />

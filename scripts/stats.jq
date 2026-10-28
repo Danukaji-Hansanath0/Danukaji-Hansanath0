@@ -9,6 +9,6 @@
     | group_by(.node.name)
     | map({name: .[0].node.name, size: (map(.size) | add)})
     | sort_by(-.size)
-    | .[:6]
+    | .[:8]
     | to_entries[]
     | "lang.\(.key)=\(.value.name):\(.value.size)" )

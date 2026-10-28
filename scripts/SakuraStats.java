@@ -15,7 +15,7 @@ public class SakuraStats {
 
     static final String FONT = "Segoe UI, Helvetica, Arial, sans-serif";
     static final String PETAL = "M0 0C-12-6-11-19-3-21L0-17L3-21C11-19 12-6 0 0Z";
-    static final String[] PINKS = {"deeppink", "hotpink", "palevioletred", "lightpink", "mediumvioletred", "pink"};
+    static final String[] PINKS = {"deeppink", "hotpink", "palevioletred", "lightpink", "mediumvioletred", "pink", "orchid", "thistle"};
 
     public static void main(String[] args) throws IOException {
         Properties p = new Properties();
@@ -57,7 +57,7 @@ public class SakuraStats {
         }
         long total = sizes.stream().mapToLong(Long::longValue).sum();
 
-        for (int i = 0; i < names.size(); i++) {
+        for (int i = 0; i < Math.min(6, names.size()); i++) {
             int y = 96 + i * 26;
             double pct = total == 0 ? 0 : sizes.get(i) * 100.0 / total;
             double bar = Math.max(6, 200 * pct / 100);
@@ -117,6 +117,92 @@ public class SakuraStats {
 
         Files.writeString(Path.of(args[1]), svg);
         System.out.println("Wrote " + args[1]);
+
+        if (args.length > 2) {
+            Files.writeString(Path.of(args[2]), languageCard(names, sizes, total));
+            System.out.println("Wrote " + args[2]);
+        }
+    }
+
+    /** A wide sakura card: a pink donut on the left, language bars on the right. */
+    static String languageCard(List<String> names, List<Long> sizes, long total) {
+        StringBuilder ring = new StringBuilder();
+        StringBuilder rows = new StringBuilder();
+        double circle = 2 * Math.PI * 70;
+        double used = 0;
+
+        for (int i = 0; i < names.size(); i++) {
+            double pct = total == 0 ? 0 : sizes.get(i) * 100.0 / total;
+            double dash = Math.max(0.5, circle * pct / 100 - 2);
+            String color = PINKS[i % PINKS.length];
+            ring.append("""
+                <circle r="70" fill="none" stroke="%s" stroke-width="24" stroke-dasharray="%.1f %.1f" stroke-dashoffset="%.1f"/>
+                """.formatted(color, dash, circle - dash, -used));
+            used += circle * pct / 100;
+
+            int x = 330 + (i / 4) * 320;
+            int y = 104 + (i % 4) * 46;
+            double bar = Math.max(6, 270 * pct / 100);
+            rows.append("""
+                <g transform="translate(%d %d) scale(0.42)" fill="%s"><use class="sway" href="#p" xlink:href="#p"/></g>
+                <text x="%d" y="%d" font-size="15" font-weight="700" fill="mistyrose">%s</text>
+                <text x="%d" y="%d" font-size="14" fill="lightpink" text-anchor="end">%.1f%%</text>
+                <rect x="%d" y="%d" width="270" height="8" rx="4" fill="hotpink" fill-opacity="0.12"/>
+                <rect class="grow" x="%d" y="%d" width="%.1f" height="8" rx="4" fill="%s"/>
+                """.formatted(x + 4, y - 4, color, x + 18, y, esc(names.get(i)),
+                              x + 288, y, pct, x + 18, y + 10, x + 18, y + 10, bar, color));
+        }
+
+        String top = names.isEmpty() ? "-" : esc(names.get(0));
+        String topPct = total == 0 ? "" : "%.0f%%".formatted(sizes.get(0) * 100.0 / total);
+
+        return """
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 960 300" width="960" height="300">
+              <defs>
+                <radialGradient id="glow" cx="15%%" cy="50%%" r="80%%">
+                  <stop offset="0" stop-color="mediumvioletred" stop-opacity="0.4"/>
+                  <stop offset="1" stop-color="black" stop-opacity="0"/>
+                </radialGradient>
+                <linearGradient id="ink" x1="0" x2="1">
+                  <stop offset="0" stop-color="hotpink"/>
+                  <stop offset="1" stop-color="lightpink"/>
+                </linearGradient>
+                <clipPath id="card"><rect width="960" height="300" rx="20"/></clipPath>
+                <path id="p" d="%s"/>
+              </defs>
+              <style>
+                .sway { animation: sway 2.6s ease-in-out infinite alternate; }
+                .grow { animation: grow 1.4s ease-out both; transform-box: fill-box; transform-origin: left; }
+                .ring { animation: pop 1.2s ease-out both; transform-box: fill-box; transform-origin: center; }
+                .fall { animation: fall linear infinite; transform-box: fill-box; transform-origin: center; }
+                @keyframes sway { from { transform: rotate(-16deg); } to { transform: rotate(16deg); } }
+                @keyframes grow { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+                @keyframes pop { from { transform: rotate(-90deg) scale(0.6); opacity: 0; } to { transform: rotate(0deg) scale(1); opacity: 1; } }
+                @keyframes fall {
+                  0%%   { transform: translate(0, -30px) rotate(0deg); opacity: 0; }
+                  15%%  { opacity: 0.7; }
+                  100%% { transform: translate(60px, 330px) rotate(420deg); opacity: 0; }
+                }
+              </style>
+              <g clip-path="url(#card)" font-family="%s">
+                <rect width="960" height="300" fill="black"/>
+                <rect width="960" height="300" fill="url(#glow)"/>
+                <g transform="translate(560 0) scale(0.5)" fill="pink"><use class="fall" href="#p" xlink:href="#p" style="animation-duration:13s;animation-delay:-5s"/></g>
+                <g transform="translate(920 0) scale(0.6)" fill="hotpink"><use class="fall" href="#p" xlink:href="#p" style="animation-duration:15s;animation-delay:-10s"/></g>
+                <g transform="translate(160 165)">
+                  <g class="ring"><g transform="rotate(-90)">
+            %s      </g></g>
+                  <text y="-2" text-anchor="middle" font-size="22" font-weight="800" fill="url(#ink)">%s</text>
+                  <text y="22" text-anchor="middle" font-size="15" fill="pink">%s</text>
+                </g>
+                <text x="330" y="50" font-size="22" font-weight="800" fill="url(#ink)">Most used languages</text>
+                <rect x="330" y="62" width="220" height="2" rx="1" fill="hotpink" fill-opacity="0.5"/>
+            %s
+                <text x="925" y="285" font-size="11" fill="palevioletred" text-anchor="end">private + public repos · updated %s</text>
+                <rect x="1" y="1" width="958" height="298" rx="20" fill="none" stroke="hotpink" stroke-opacity="0.45" stroke-width="2"/>
+              </g>
+            </svg>
+            """.formatted(PETAL, FONT, ring.toString().indent(10), top, topPct, rows.toString().indent(4), LocalDate.now());
     }
 
     static String esc(String s) {
