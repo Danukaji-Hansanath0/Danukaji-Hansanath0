@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/sakura-header.svg" width="100%" alt="Danukaji Hansanath — sakura banner" />
+  <img src="./assets/sakura-banner.svg" width="100%" alt="Danukaji Hansanath — sakura banner" />
 </p>
 
 <p align="center">
@@ -38,7 +38,7 @@ I'm a **Software Engineer** who builds backend systems with **Java and Spring**,
 </p>
 
 <p align="center">
-  <img src="./assets/tech-stack.svg" width="100%" alt="My toolbox: languages, backend, frontend and mobile, desktop and reports, data, DevOps and cloud, AI" />
+  <img src="./assets/toolbox.svg" width="100%" alt="My toolbox: languages, backend, frontend and mobile, desktop and reports, data, DevOps and cloud, AI" />
 </p>
 
 <img src="./assets/sakura-divider.svg" width="100%" alt="" />
