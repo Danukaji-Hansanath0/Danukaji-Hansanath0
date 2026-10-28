@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="{{LIGHT}}"/>
+      <stop offset="1" stop-color="{{STRONG}}"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .spin { animation: spin 10s linear infinite; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+  </style>
+  <g transform="translate(24 24)">
+    <g class="spin" fill="{{MAIN}}">
+      <rect x="-3.5" y="-20" width="7" height="8" rx="2"/>
+      <rect x="-3.5" y="-20" width="7" height="8" rx="2" transform="rotate(45)"/>
+      <rect x="-3.5" y="-20" width="7" height="8" rx="2" transform="rotate(90)"/>
+      <rect x="-3.5" y="-20" width="7" height="8" rx="2" transform="rotate(135)"/>
+      <rect x="-3.5" y="-20" width="7" height="8" rx="2" transform="rotate(180)"/>
+      <rect x="-3.5" y="-20" width="7" height="8" rx="2" transform="rotate(225)"/>
+      <rect x="-3.5" y="-20" width="7" height="8" rx="2" transform="rotate(270)"/>
+      <rect x="-3.5" y="-20" width="7" height="8" rx="2" transform="rotate(315)"/>
+      <circle r="12" fill="none" stroke="url(#g)" stroke-width="6"/>
+      <circle r="4" fill="{{LIGHT}}"/>
+    </g>
+  </g>
+</svg>
