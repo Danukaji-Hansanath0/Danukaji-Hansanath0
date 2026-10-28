@@ -1,4 +1,4 @@
-name: Sakura stats
+name: Profile theme and stats
 
 on:
   schedule:
@@ -7,8 +7,14 @@ on:
   push:
     branches: [master]
     paths:
+      - theme.properties
+      - "**.tpl"
       - scripts/**
       - .github/workflows/sakura-stats.yml
+
+concurrency:
+  group: profile-theme
+  cancel-in-progress: false
 
 permissions:
   contents: write
@@ -27,6 +33,11 @@ jobs:
         with:
           distribution: temurin
           java-version: "21"
+
+      - name: Apply theme.properties colors
+        run: |
+          java scripts/ApplyTheme.java
+          java scripts/ApplyTheme.java export >> "$GITHUB_ENV"
 
       - name: Fetch GitHub stats
         env:
@@ -58,7 +69,7 @@ jobs:
           jq -r -f scripts/stats.jq stats.json > stats.properties
           cat stats.properties
 
-      - name: Render sakura card
+      - name: Render stats cards
         run: java scripts/SakuraStats.java stats.properties assets/stats.svg assets/languages.svg
 
       - name: Classic GitHub stats card
@@ -67,12 +78,14 @@ jobs:
           card: stats
           path: assets/github-stats.svg
           token: ${{ env.TOKEN }}
-          options: username=${{ github.repository_owner }}&show_icons=true&count_private=true&include_all_commits=true&rank_icon=github&hide_border=true&bg_color=0d0a12&title_color=ff69b4&icon_color=ff8fab&text_color=f8c8dc&ring_color=ff69b4&custom_title=Sakura%20GitHub%20stats
+          options: username=${{ github.repository_owner }}&show_icons=true&count_private=true&include_all_commits=true&rank_icon=github&hide_border=true&bg_color=${{ env.BG_HEX }}&title_color=${{ env.MAIN_HEX }}&icon_color=${{ env.LIGHT_HEX }}&text_color=${{ env.SOFT_HEX }}&ring_color=${{ env.MAIN_HEX }}&custom_title=GitHub%20stats
 
-      - name: Commit cards
+      - name: Commit themed files
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/stats.svg assets/languages.svg assets/github-stats.svg
-          git diff --cached --quiet || git commit -m "Update stats cards"
+          git add README.md assets
+          git diff --cached --quiet && exit 0
+          git commit -m "Apply theme and update stats cards"
+          git pull --rebase
           git push
