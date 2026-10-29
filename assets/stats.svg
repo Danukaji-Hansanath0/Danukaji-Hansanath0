@@ -37,7 +37,7 @@
     <text x="60" y="112" font-size="24" font-weight="800" fill="url(#ink)">1</text>
     <text x="60" y="130" font-size="13" fill="lightblue">Total stars</text>
     <g transform="translate(46 158) scale(0.45)" fill="dodgerblue"><use class="sway" href="#p" xlink:href="#p"/></g>
-    <text x="60" y="164" font-size="24" font-weight="800" fill="url(#ink)">1,773</text>
+    <text x="60" y="164" font-size="24" font-weight="800" fill="url(#ink)">1,774</text>
     <text x="60" y="182" font-size="13" fill="lightblue">Commits this year</text>
     <g transform="translate(46 210) scale(0.45)" fill="dodgerblue"><use class="sway" href="#p" xlink:href="#p"/></g>
     <text x="60" y="216" font-size="24" font-weight="800" fill="url(#ink)">459</text>
@@ -46,37 +46,37 @@
     <text x="285" y="112" font-size="24" font-weight="800" fill="url(#ink)">0</text>
     <text x="285" y="130" font-size="13" fill="lightblue">Issues</text>
     <g transform="translate(271 158) scale(0.45)" fill="dodgerblue"><use class="sway" href="#p" xlink:href="#p"/></g>
-    <text x="285" y="164" font-size="24" font-weight="800" fill="url(#ink)">2,328</text>
+    <text x="285" y="164" font-size="24" font-weight="800" fill="url(#ink)">2,329</text>
     <text x="285" y="182" font-size="13" fill="lightblue">Contributions this year</text>
     <g transform="translate(271 210) scale(0.45)" fill="dodgerblue"><use class="sway" href="#p" xlink:href="#p"/></g>
     <text x="285" y="216" font-size="24" font-weight="800" fill="url(#ink)">88</text>
     <text x="285" y="234" font-size="13" fill="lightblue">Repositories</text>
     <text x="530" y="96" font-size="14" fill="aliceblue">Java</text>
     <rect x="660" y="87" width="200" height="9" rx="4.5" fill="dodgerblue" fill-opacity="0.12"/>
-    <rect class="grow" x="660" y="87" width="95.7" height="9" rx="4.5" fill="royalblue"/>
-    <text x="925" y="96" font-size="13" fill="lightskyblue" text-anchor="end">47.9%</text>
+    <rect class="grow" x="660" y="87" width="93.7" height="9" rx="4.5" fill="royalblue"/>
+    <text x="925" y="96" font-size="13" fill="lightskyblue" text-anchor="end">46.8%</text>
     <text x="530" y="122" font-size="14" fill="aliceblue">TypeScript</text>
     <rect x="660" y="113" width="200" height="9" rx="4.5" fill="dodgerblue" fill-opacity="0.12"/>
-    <rect class="grow" x="660" y="113" width="51.3" height="9" rx="4.5" fill="dodgerblue"/>
-    <text x="925" y="122" font-size="13" fill="lightskyblue" text-anchor="end">25.6%</text>
+    <rect class="grow" x="660" y="113" width="50.2" height="9" rx="4.5" fill="dodgerblue"/>
+    <text x="925" y="122" font-size="13" fill="lightskyblue" text-anchor="end">25.1%</text>
     <text x="530" y="148" font-size="14" fill="aliceblue">Dart</text>
     <rect x="660" y="139" width="200" height="9" rx="4.5" fill="dodgerblue" fill-opacity="0.12"/>
-    <rect class="grow" x="660" y="139" width="10.7" height="9" rx="4.5" fill="steelblue"/>
-    <text x="925" y="148" font-size="13" fill="lightskyblue" text-anchor="end">5.3%</text>
+    <rect class="grow" x="660" y="139" width="14.7" height="9" rx="4.5" fill="steelblue"/>
+    <text x="925" y="148" font-size="13" fill="lightskyblue" text-anchor="end">7.4%</text>
     <text x="530" y="174" font-size="14" fill="aliceblue">PHP</text>
     <rect x="660" y="165" width="200" height="9" rx="4.5" fill="dodgerblue" fill-opacity="0.12"/>
-    <rect class="grow" x="660" y="165" width="10.6" height="9" rx="4.5" fill="lightskyblue"/>
-    <text x="925" y="174" font-size="13" fill="lightskyblue" text-anchor="end">5.3%</text>
+    <rect class="grow" x="660" y="165" width="10.3" height="9" rx="4.5" fill="lightskyblue"/>
+    <text x="925" y="174" font-size="13" fill="lightskyblue" text-anchor="end">5.2%</text>
     <text x="530" y="200" font-size="14" fill="aliceblue">CSS</text>
     <rect x="660" y="191" width="200" height="9" rx="4.5" fill="dodgerblue" fill-opacity="0.12"/>
-    <rect class="grow" x="660" y="191" width="9.6" height="9" rx="4.5" fill="cornflowerblue"/>
-    <text x="925" y="200" font-size="13" fill="lightskyblue" text-anchor="end">4.8%</text>
+    <rect class="grow" x="660" y="191" width="9.4" height="9" rx="4.5" fill="cornflowerblue"/>
+    <text x="925" y="200" font-size="13" fill="lightskyblue" text-anchor="end">4.7%</text>
     <text x="530" y="226" font-size="14" fill="aliceblue">Python</text>
     <rect x="660" y="217" width="200" height="9" rx="4.5" fill="dodgerblue" fill-opacity="0.12"/>
-    <rect class="grow" x="660" y="217" width="8.5" height="9" rx="4.5" fill="lightblue"/>
+    <rect class="grow" x="660" y="217" width="8.4" height="9" rx="4.5" fill="lightblue"/>
     <text x="925" y="226" font-size="13" fill="lightskyblue" text-anchor="end">4.2%</text>
 
-    <text x="925" y="255" font-size="11" fill="cornflowerblue" text-anchor="end">updated 2026-10-28</text>
+    <text x="925" y="255" font-size="11" fill="cornflowerblue" text-anchor="end">updated 2026-10-29</text>
     <rect x="1" y="1" width="958" height="268" rx="20" fill="none" stroke="dodgerblue" stroke-opacity="0.45" stroke-width="2"/>
   </g>
 </svg>
