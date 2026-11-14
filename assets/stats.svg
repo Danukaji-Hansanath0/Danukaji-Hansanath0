@@ -37,16 +37,16 @@
     <text x="60" y="112" font-size="24" font-weight="800" fill="url(#ink)">1</text>
     <text x="60" y="130" font-size="13" fill="lightblue">Total stars</text>
     <g transform="translate(46 158) scale(0.45)" fill="dodgerblue"><use class="sway" href="#p" xlink:href="#p"/></g>
-    <text x="60" y="164" font-size="24" font-weight="800" fill="url(#ink)">1,809</text>
+    <text x="60" y="164" font-size="24" font-weight="800" fill="url(#ink)">1,811</text>
     <text x="60" y="182" font-size="13" fill="lightblue">Commits this year</text>
     <g transform="translate(46 210) scale(0.45)" fill="dodgerblue"><use class="sway" href="#p" xlink:href="#p"/></g>
-    <text x="60" y="216" font-size="24" font-weight="800" fill="url(#ink)">470</text>
+    <text x="60" y="216" font-size="24" font-weight="800" fill="url(#ink)">473</text>
     <text x="60" y="234" font-size="13" fill="lightblue">Pull requests</text>
     <g transform="translate(271 106) scale(0.45)" fill="dodgerblue"><use class="sway" href="#p" xlink:href="#p"/></g>
     <text x="285" y="112" font-size="24" font-weight="800" fill="url(#ink)">0</text>
     <text x="285" y="130" font-size="13" fill="lightblue">Issues</text>
     <g transform="translate(271 158) scale(0.45)" fill="dodgerblue"><use class="sway" href="#p" xlink:href="#p"/></g>
-    <text x="285" y="164" font-size="24" font-weight="800" fill="url(#ink)">2,372</text>
+    <text x="285" y="164" font-size="24" font-weight="800" fill="url(#ink)">2,377</text>
     <text x="285" y="182" font-size="13" fill="lightblue">Contributions this year</text>
     <g transform="translate(271 210) scale(0.45)" fill="dodgerblue"><use class="sway" href="#p" xlink:href="#p"/></g>
     <text x="285" y="216" font-size="24" font-weight="800" fill="url(#ink)">90</text>
@@ -76,7 +76,7 @@
     <rect class="grow" x="660" y="217" width="9.3" height="9" rx="4.5" fill="lightblue"/>
     <text x="925" y="226" font-size="13" fill="lightskyblue" text-anchor="end">4.6%</text>
 
-    <text x="925" y="255" font-size="11" fill="cornflowerblue" text-anchor="end">updated 2026-11-13</text>
+    <text x="925" y="255" font-size="11" fill="cornflowerblue" text-anchor="end">updated 2026-11-14</text>
     <rect x="1" y="1" width="958" height="268" rx="20" fill="none" stroke="dodgerblue" stroke-opacity="0.45" stroke-width="2"/>
   </g>
 </svg>
