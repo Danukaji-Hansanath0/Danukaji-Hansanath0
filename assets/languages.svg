@@ -32,11 +32,11 @@
     <g transform="translate(920 0) scale(0.6)" fill="dodgerblue"><use class="fall" href="#p" xlink:href="#p" style="animation-duration:15s;animation-delay:-10s"/></g>
     <g transform="translate(160 165)">
       <g class="ring"><g transform="rotate(-90)">
-          <circle r="70" fill="none" stroke="royalblue" stroke-width="24" stroke-dasharray="202.3 237.5" stroke-dashoffset="-0.0"/>
-          <circle r="70" fill="none" stroke="dodgerblue" stroke-width="24" stroke-dasharray="107.4 332.4" stroke-dashoffset="-204.3"/>
-          <circle r="70" fill="none" stroke="steelblue" stroke-width="24" stroke-dasharray="31.5 408.3" stroke-dashoffset="-313.7"/>
-          <circle r="70" fill="none" stroke="lightskyblue" stroke-width="24" stroke-dasharray="20.2 419.6" stroke-dashoffset="-347.2"/>
-          <circle r="70" fill="none" stroke="cornflowerblue" stroke-width="24" stroke-dasharray="19.3 420.6" stroke-dashoffset="-369.4"/>
+          <circle r="70" fill="none" stroke="royalblue" stroke-width="24" stroke-dasharray="202.2 237.6" stroke-dashoffset="-0.0"/>
+          <circle r="70" fill="none" stroke="dodgerblue" stroke-width="24" stroke-dasharray="107.3 332.5" stroke-dashoffset="-204.2"/>
+          <circle r="70" fill="none" stroke="steelblue" stroke-width="24" stroke-dasharray="31.5 408.3" stroke-dashoffset="-313.5"/>
+          <circle r="70" fill="none" stroke="lightskyblue" stroke-width="24" stroke-dasharray="20.2 419.6" stroke-dashoffset="-347.0"/>
+          <circle r="70" fill="none" stroke="cornflowerblue" stroke-width="24" stroke-dasharray="19.5 420.3" stroke-dashoffset="-369.2"/>
           <circle r="70" fill="none" stroke="lightblue" stroke-width="24" stroke-dasharray="18.3 421.5" stroke-dashoffset="-390.7"/>
           <circle r="70" fill="none" stroke="deepskyblue" stroke-width="24" stroke-dasharray="12.6 427.2" stroke-dashoffset="-411.0"/>
           <circle r="70" fill="none" stroke="lightsteelblue" stroke-width="24" stroke-dasharray="12.2 427.6" stroke-dashoffset="-425.6"/>
@@ -50,12 +50,12 @@
     <text x="348" y="104" font-size="15" font-weight="700" fill="aliceblue">Java</text>
     <text x="618" y="104" font-size="14" fill="lightskyblue" text-anchor="end">46.4%</text>
     <rect x="348" y="114" width="270" height="8" rx="4" fill="dodgerblue" fill-opacity="0.12"/>
-    <rect class="grow" x="348" y="114" width="125.4" height="8" rx="4" fill="royalblue"/>
+    <rect class="grow" x="348" y="114" width="125.3" height="8" rx="4" fill="royalblue"/>
     <g transform="translate(334 146) scale(0.42)" fill="dodgerblue"><use class="sway" href="#p" xlink:href="#p"/></g>
     <text x="348" y="150" font-size="15" font-weight="700" fill="aliceblue">TypeScript</text>
     <text x="618" y="150" font-size="14" fill="lightskyblue" text-anchor="end">24.9%</text>
     <rect x="348" y="160" width="270" height="8" rx="4" fill="dodgerblue" fill-opacity="0.12"/>
-    <rect class="grow" x="348" y="160" width="67.2" height="8" rx="4" fill="dodgerblue"/>
+    <rect class="grow" x="348" y="160" width="67.1" height="8" rx="4" fill="dodgerblue"/>
     <g transform="translate(334 192) scale(0.42)" fill="steelblue"><use class="sway" href="#p" xlink:href="#p"/></g>
     <text x="348" y="196" font-size="15" font-weight="700" fill="aliceblue">Dart</text>
     <text x="618" y="196" font-size="14" fill="lightskyblue" text-anchor="end">7.6%</text>
@@ -68,14 +68,14 @@
     <rect class="grow" x="348" y="252" width="13.6" height="8" rx="4" fill="lightskyblue"/>
     <g transform="translate(654 100) scale(0.42)" fill="cornflowerblue"><use class="sway" href="#p" xlink:href="#p"/></g>
     <text x="668" y="104" font-size="15" font-weight="700" fill="aliceblue">Python</text>
-    <text x="938" y="104" font-size="14" fill="lightskyblue" text-anchor="end">4.8%</text>
+    <text x="938" y="104" font-size="14" fill="lightskyblue" text-anchor="end">4.9%</text>
     <rect x="668" y="114" width="270" height="8" rx="4" fill="dodgerblue" fill-opacity="0.12"/>
-    <rect class="grow" x="668" y="114" width="13.1" height="8" rx="4" fill="cornflowerblue"/>
+    <rect class="grow" x="668" y="114" width="13.2" height="8" rx="4" fill="cornflowerblue"/>
     <g transform="translate(654 146) scale(0.42)" fill="lightblue"><use class="sway" href="#p" xlink:href="#p"/></g>
     <text x="668" y="150" font-size="15" font-weight="700" fill="aliceblue">CSS</text>
     <text x="938" y="150" font-size="14" fill="lightskyblue" text-anchor="end">4.6%</text>
     <rect x="668" y="160" width="270" height="8" rx="4" fill="dodgerblue" fill-opacity="0.12"/>
-    <rect class="grow" x="668" y="160" width="12.5" height="8" rx="4" fill="lightblue"/>
+    <rect class="grow" x="668" y="160" width="12.4" height="8" rx="4" fill="lightblue"/>
     <g transform="translate(654 192) scale(0.42)" fill="deepskyblue"><use class="sway" href="#p" xlink:href="#p"/></g>
     <text x="668" y="196" font-size="15" font-weight="700" fill="aliceblue">HTML</text>
     <text x="938" y="196" font-size="14" fill="lightskyblue" text-anchor="end">3.3%</text>
@@ -87,7 +87,7 @@
     <rect x="668" y="252" width="270" height="8" rx="4" fill="dodgerblue" fill-opacity="0.12"/>
     <rect class="grow" x="668" y="252" width="8.7" height="8" rx="4" fill="lightsteelblue"/>
 
-    <text x="925" y="285" font-size="11" fill="cornflowerblue" text-anchor="end">private + public repos · updated 2026-11-23</text>
+    <text x="925" y="285" font-size="11" fill="cornflowerblue" text-anchor="end">private + public repos · updated 2026-11-24</text>
     <rect x="1" y="1" width="958" height="298" rx="20" fill="none" stroke="dodgerblue" stroke-opacity="0.45" stroke-width="2"/>
   </g>
 </svg>
